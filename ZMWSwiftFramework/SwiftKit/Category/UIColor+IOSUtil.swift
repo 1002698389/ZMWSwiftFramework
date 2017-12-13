@@ -71,6 +71,9 @@ extension UIColor {
     class func getNavigationBarColor() -> UIColor {
         return UIColor.colorRGB16(value: 0xFFFFFF);
     }
-    
+    /// 分割线的颜色 -
+    class func getSeparatorColor() -> UIColor {
+        return UIColor.colorRGB16(value: 0xcccaca);
+    }
 }
 
