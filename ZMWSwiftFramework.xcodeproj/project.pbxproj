@@ -32,6 +32,8 @@
 		BDEB8A7F1FE1210F0066C807 /* UILabel+IOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A7E1FE1210F0066C807 /* UILabel+IOSUtil.swift */; };
 		BDEB8A811FE121200066C807 /* UIImageView+IOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A801FE121200066C807 /* UIImageView+IOSUtil.swift */; };
 		BDEB8A831FE121D70066C807 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A821FE121D70066C807 /* Tool.swift */; };
+		BDEB8A851FE122EB0066C807 /* BaseRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A841FE122EB0066C807 /* BaseRequestManager.swift */; };
+		BDEB8A871FE123610066C807 /* TestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A861FE123610066C807 /* TestRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		BDEB8A7E1FE1210F0066C807 /* UILabel+IOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+IOSUtil.swift"; sourceTree = "<group>"; };
 		BDEB8A801FE121200066C807 /* UIImageView+IOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+IOSUtil.swift"; sourceTree = "<group>"; };
 		BDEB8A821FE121D70066C807 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		BDEB8A841FE122EB0066C807 /* BaseRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequestManager.swift; sourceTree = "<group>"; };
+		BDEB8A861FE123610066C807 /* TestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequest.swift; sourceTree = "<group>"; };
 		D5A25FA529FBD5BFF8F1A116 /* Pods_ZMWSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMWSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMWSwiftFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +203,8 @@
 		BDEB8A531FE115100066C807 /* SwiftNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB8A841FE122EB0066C807 /* BaseRequestManager.swift */,
+				BDEB8A861FE123610066C807 /* TestRequest.swift */,
 			);
 			path = SwiftNetworking;
 			sourceTree = "<group>";
@@ -369,10 +375,12 @@
 				BDEB8A701FE11CA00066C807 /* UIView+JCView.swift in Sources */,
 				BDEB8A5C1FE1195E0066C807 /* SizeMacro.swift in Sources */,
 				BDEB8A811FE121200066C807 /* UIImageView+IOSUtil.swift in Sources */,
+				BDEB8A851FE122EB0066C807 /* BaseRequestManager.swift in Sources */,
 				BDEB8A581FE115100066C807 /* AppDelegate.swift in Sources */,
 				BDEB8A5E1FE119930066C807 /* UtilMacro.swift in Sources */,
 				BDEB8A751FE11CA00066C807 /* UITextField+JCTextField.swift in Sources */,
 				BDEB8A5A1FE119120066C807 /* BaseViewController.swift in Sources */,
+				BDEB8A871FE123610066C807 /* TestRequest.swift in Sources */,
 				BDEB8A741FE11CA00066C807 /* UITextView+JCTextView.swift in Sources */,
 				BDEB8A651FE11AC60066C807 /* UIFont+IOSUtil.swift in Sources */,
 				BDEB8A671FE11B290066C807 /* UIScreen+JCScale.swift in Sources */,
