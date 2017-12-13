@@ -242,6 +242,7 @@
 				BDEB8A221FE0EC0E0066C807 /* Resources */,
 				BCF7DB6DAE1AE588E585B409 /* [CP] Embed Pods Frameworks */,
 				6669DE1DA68B901687BC6090 /* [CP] Copy Pods Resources */,
+				BDEB8A891FE124DB0066C807 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -355,6 +356,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		BDEB8A891FE124DB0066C807 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nREV=`git rev-list HEAD | wc -l | awk '{print $1}'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $REV\" \"$INFOPLIST_FILE\"\n# Change the build folder plist file.\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $REV\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
