@@ -28,6 +28,10 @@
 		BDEB8A751FE11CA00066C807 /* UITextField+JCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A6E1FE11CA00066C807 /* UITextField+JCTextField.swift */; };
 		BDEB8A771FE11CAE0066C807 /* UIColor+IOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A761FE11CAE0066C807 /* UIColor+IOSUtil.swift */; };
 		BDEB8A7A1FE11E760066C807 /* Data+JCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A781FE11E750066C807 /* Data+JCData.swift */; };
+		BDEB8A7D1FE120FE0066C807 /* UIButton+IOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A7C1FE120FE0066C807 /* UIButton+IOSUtil.swift */; };
+		BDEB8A7F1FE1210F0066C807 /* UILabel+IOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A7E1FE1210F0066C807 /* UILabel+IOSUtil.swift */; };
+		BDEB8A811FE121200066C807 /* UIImageView+IOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A801FE121200066C807 /* UIImageView+IOSUtil.swift */; };
+		BDEB8A831FE121D70066C807 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A821FE121D70066C807 /* Tool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,10 @@
 		BDEB8A6E1FE11CA00066C807 /* UITextField+JCTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+JCTextField.swift"; sourceTree = "<group>"; };
 		BDEB8A761FE11CAE0066C807 /* UIColor+IOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+IOSUtil.swift"; sourceTree = "<group>"; };
 		BDEB8A781FE11E750066C807 /* Data+JCData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+JCData.swift"; sourceTree = "<group>"; };
+		BDEB8A7C1FE120FE0066C807 /* UIButton+IOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+IOSUtil.swift"; sourceTree = "<group>"; };
+		BDEB8A7E1FE1210F0066C807 /* UILabel+IOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+IOSUtil.swift"; sourceTree = "<group>"; };
+		BDEB8A801FE121200066C807 /* UIImageView+IOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+IOSUtil.swift"; sourceTree = "<group>"; };
+		BDEB8A821FE121D70066C807 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		D5A25FA529FBD5BFF8F1A116 /* Pods_ZMWSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMWSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMWSwiftFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +168,7 @@
 		BDEB8A4E1FE115100066C807 /* SwiftTool */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB8A821FE121D70066C807 /* Tool.swift */,
 			);
 			path = SwiftTool;
 			sourceTree = "<group>";
@@ -198,6 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				BDEB8A761FE11CAE0066C807 /* UIColor+IOSUtil.swift */,
+				BDEB8A7C1FE120FE0066C807 /* UIButton+IOSUtil.swift */,
+				BDEB8A7E1FE1210F0066C807 /* UILabel+IOSUtil.swift */,
+				BDEB8A801FE121200066C807 /* UIImageView+IOSUtil.swift */,
 				BDEB8A6B1FE11C9F0066C807 /* UIImage+JCImage.swift */,
 				BDEB8A641FE11AC60066C807 /* UIFont+IOSUtil.swift */,
 				BDEB8A6C1FE11C9F0066C807 /* UIScrollView+JCScrollView.swift */,
@@ -345,7 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEB8A7F1FE1210F0066C807 /* UILabel+IOSUtil.swift in Sources */,
+				BDEB8A7D1FE120FE0066C807 /* UIButton+IOSUtil.swift in Sources */,
 				BDEB8A721FE11CA00066C807 /* UIImage+JCImage.swift in Sources */,
+				BDEB8A831FE121D70066C807 /* Tool.swift in Sources */,
 				BDEB8A771FE11CAE0066C807 /* UIColor+IOSUtil.swift in Sources */,
 				BDEB8A731FE11CA00066C807 /* UIScrollView+JCScrollView.swift in Sources */,
 				BDEB8A601FE119B60066C807 /* ApiMacro.swift in Sources */,
@@ -353,6 +368,7 @@
 				BDEB8A621FE11A090066C807 /* PathMacro.swift in Sources */,
 				BDEB8A701FE11CA00066C807 /* UIView+JCView.swift in Sources */,
 				BDEB8A5C1FE1195E0066C807 /* SizeMacro.swift in Sources */,
+				BDEB8A811FE121200066C807 /* UIImageView+IOSUtil.swift in Sources */,
 				BDEB8A581FE115100066C807 /* AppDelegate.swift in Sources */,
 				BDEB8A5E1FE119930066C807 /* UtilMacro.swift in Sources */,
 				BDEB8A751FE11CA00066C807 /* UITextField+JCTextField.swift in Sources */,
