@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BDEB8A281FE0EC0E0066C807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A271FE0EC0E0066C807 /* AppDelegate.swift */; };
-		BDEB8A2A1FE0EC0E0066C807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A291FE0EC0E0066C807 /* ViewController.swift */; };
-		BDEB8A2D1FE0EC0E0066C807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A2B1FE0EC0E0066C807 /* Main.storyboard */; };
 		BDEB8A2F1FE0EC0E0066C807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A2E1FE0EC0E0066C807 /* Assets.xcassets */; };
-		BDEB8A321FE0EC0E0066C807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A301FE0EC0E0066C807 /* LaunchScreen.storyboard */; };
+		BDEB8A3A1FE0EEB00066C807 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A391FE0EEB00066C807 /* Launch Screen.storyboard */; };
+		BDEB8A3C1FE0EECF0066C807 /* Launch1.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A3B1FE0EECF0066C807 /* Launch1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDEB8A241FE0EC0E0066C807 /* ZMWSwiftFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMWSwiftFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEB8A271FE0EC0E0066C807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDEB8A291FE0EC0E0066C807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDEB8A2C1FE0EC0E0066C807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDEB8A2E1FE0EC0E0066C807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BDEB8A311FE0EC0E0066C807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDEB8A331FE0EC0E0066C807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEB8A391FE0EEB00066C807 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BDEB8A3B1FE0EECF0066C807 /* Launch1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				BDEB8A271FE0EC0E0066C807 /* AppDelegate.swift */,
-				BDEB8A291FE0EC0E0066C807 /* ViewController.swift */,
-				BDEB8A2B1FE0EC0E0066C807 /* Main.storyboard */,
 				BDEB8A2E1FE0EC0E0066C807 /* Assets.xcassets */,
-				BDEB8A301FE0EC0E0066C807 /* LaunchScreen.storyboard */,
+				BDEB8A391FE0EEB00066C807 /* Launch Screen.storyboard */,
 				BDEB8A331FE0EC0E0066C807 /* Info.plist */,
+				BDEB8A3B1FE0EECF0066C807 /* Launch1.png */,
 			);
 			path = ZMWSwiftFramework;
 			sourceTree = "<group>";
@@ -123,9 +120,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEB8A321FE0EC0E0066C807 /* LaunchScreen.storyboard in Resources */,
+				BDEB8A3A1FE0EEB00066C807 /* Launch Screen.storyboard in Resources */,
+				BDEB8A3C1FE0EECF0066C807 /* Launch1.png in Resources */,
 				BDEB8A2F1FE0EC0E0066C807 /* Assets.xcassets in Resources */,
-				BDEB8A2D1FE0EC0E0066C807 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEB8A2A1FE0EC0E0066C807 /* ViewController.swift in Sources */,
 				BDEB8A281FE0EC0E0066C807 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BDEB8A2B1FE0EC0E0066C807 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDEB8A2C1FE0EC0E0066C807 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BDEB8A301FE0EC0E0066C807 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDEB8A311FE0EC0E0066C807 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BDEB8A341FE0EC0E0066C807 /* Debug */ = {
@@ -211,7 +188,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -277,11 +254,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A99V6896N;
 				INFOPLIST_FILE = ZMWSwiftFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZMWSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +270,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A99V6896N;
 				INFOPLIST_FILE = ZMWSwiftFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZMWSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
