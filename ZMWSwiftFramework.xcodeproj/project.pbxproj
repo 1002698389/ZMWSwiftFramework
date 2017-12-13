@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDEB8A281FE0EC0E0066C807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A271FE0EC0E0066C807 /* AppDelegate.swift */; };
-		BDEB8A2F1FE0EC0E0066C807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A2E1FE0EC0E0066C807 /* Assets.xcassets */; };
-		BDEB8A3A1FE0EEB00066C807 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A391FE0EEB00066C807 /* Launch Screen.storyboard */; };
-		BDEB8A3C1FE0EECF0066C807 /* Launch1.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A3B1FE0EECF0066C807 /* Launch1.png */; };
+		986D0C95F358045B9A788431 /* Pods_ZMWSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A25FA529FBD5BFF8F1A116 /* Pods_ZMWSwiftFramework.framework */; };
+		BDEB8A541FE115100066C807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A471FE115100066C807 /* Assets.xcassets */; };
+		BDEB8A551FE115100066C807 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A481FE115100066C807 /* Launch Screen.storyboard */; };
+		BDEB8A561FE115100066C807 /* Launch1.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A491FE115100066C807 /* Launch1.png */; };
+		BDEB8A571FE115100066C807 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDEB8A4A1FE115100066C807 /* Info.plist */; };
+		BDEB8A581FE115100066C807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A511FE115100066C807 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9ACA409FBF66D15A70686231 /* Pods-ZMWSwiftFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMWSwiftFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework.release.xcconfig"; sourceTree = "<group>"; };
 		BDEB8A241FE0EC0E0066C807 /* ZMWSwiftFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMWSwiftFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDEB8A271FE0EC0E0066C807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDEB8A2E1FE0EC0E0066C807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BDEB8A331FE0EC0E0066C807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDEB8A391FE0EEB00066C807 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		BDEB8A3B1FE0EECF0066C807 /* Launch1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch1.png; sourceTree = "<group>"; };
+		BDEB8A471FE115100066C807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEB8A481FE115100066C807 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BDEB8A491FE115100066C807 /* Launch1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch1.png; sourceTree = "<group>"; };
+		BDEB8A4A1FE115100066C807 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEB8A511FE115100066C807 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5A25FA529FBD5BFF8F1A116 /* Pods_ZMWSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMWSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMWSwiftFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +32,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986D0C95F358045B9A788431 /* Pods_ZMWSwiftFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EBBC0895A39C19BD730AD48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5A25FA529FBD5BFF8F1A116 /* Pods_ZMWSwiftFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A162133096ABCC2FE2398CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */,
+				9ACA409FBF66D15A70686231 /* Pods-ZMWSwiftFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BDEB8A1B1FE0EC0E0066C807 = {
 			isa = PBXGroup;
 			children = (
 				BDEB8A261FE0EC0E0066C807 /* ZMWSwiftFramework */,
 				BDEB8A251FE0EC0E0066C807 /* Products */,
+				8A162133096ABCC2FE2398CD /* Pods */,
+				0EBBC0895A39C19BD730AD48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +77,85 @@
 		BDEB8A261FE0EC0E0066C807 /* ZMWSwiftFramework */ = {
 			isa = PBXGroup;
 			children = (
-				BDEB8A271FE0EC0E0066C807 /* AppDelegate.swift */,
-				BDEB8A2E1FE0EC0E0066C807 /* Assets.xcassets */,
-				BDEB8A391FE0EEB00066C807 /* Launch Screen.storyboard */,
-				BDEB8A331FE0EC0E0066C807 /* Info.plist */,
-				BDEB8A3B1FE0EECF0066C807 /* Launch1.png */,
+				BDEB8A501FE115100066C807 /* AppDelegate */,
+				BDEB8A4B1FE115100066C807 /* SwiftModule */,
+				BDEB8A4C1FE115100066C807 /* SwiftBase */,
+				BDEB8A4E1FE115100066C807 /* SwiftTool */,
+				BDEB8A521FE115100066C807 /* SwiftKit */,
+				BDEB8A4D1FE115100066C807 /* SwiftMacro */,
+				BDEB8A4F1FE115100066C807 /* SwiftThridParty */,
+				BDEB8A531FE115100066C807 /* SwiftNetworking */,
+				BDEB8A461FE115100066C807 /* Supporting Files */,
 			);
 			path = ZMWSwiftFramework;
+			sourceTree = "<group>";
+		};
+		BDEB8A461FE115100066C807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB8A471FE115100066C807 /* Assets.xcassets */,
+				BDEB8A481FE115100066C807 /* Launch Screen.storyboard */,
+				BDEB8A491FE115100066C807 /* Launch1.png */,
+				BDEB8A4A1FE115100066C807 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDEB8A4B1FE115100066C807 /* SwiftModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftModule;
+			sourceTree = "<group>";
+		};
+		BDEB8A4C1FE115100066C807 /* SwiftBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftBase;
+			sourceTree = "<group>";
+		};
+		BDEB8A4D1FE115100066C807 /* SwiftMacro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftMacro;
+			sourceTree = "<group>";
+		};
+		BDEB8A4E1FE115100066C807 /* SwiftTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftTool;
+			sourceTree = "<group>";
+		};
+		BDEB8A4F1FE115100066C807 /* SwiftThridParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftThridParty;
+			sourceTree = "<group>";
+		};
+		BDEB8A501FE115100066C807 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB8A511FE115100066C807 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BDEB8A521FE115100066C807 /* SwiftKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftKit;
+			sourceTree = "<group>";
+		};
+		BDEB8A531FE115100066C807 /* SwiftNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDEB8A361FE0EC0E0066C807 /* Build configuration list for PBXNativeTarget "ZMWSwiftFramework" */;
 			buildPhases = (
+				90424301AD17B974D525AB61 /* [CP] Check Pods Manifest.lock */,
 				BDEB8A201FE0EC0E0066C807 /* Sources */,
 				BDEB8A211FE0EC0E0066C807 /* Frameworks */,
 				BDEB8A221FE0EC0E0066C807 /* Resources */,
+				BCF7DB6DAE1AE588E585B409 /* [CP] Embed Pods Frameworks */,
+				6669DE1DA68B901687BC6090 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,20 +220,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEB8A3A1FE0EEB00066C807 /* Launch Screen.storyboard in Resources */,
-				BDEB8A3C1FE0EECF0066C807 /* Launch1.png in Resources */,
-				BDEB8A2F1FE0EC0E0066C807 /* Assets.xcassets in Resources */,
+				BDEB8A541FE115100066C807 /* Assets.xcassets in Resources */,
+				BDEB8A551FE115100066C807 /* Launch Screen.storyboard in Resources */,
+				BDEB8A561FE115100066C807 /* Launch1.png in Resources */,
+				BDEB8A571FE115100066C807 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6669DE1DA68B901687BC6090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90424301AD17B974D525AB61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMWSwiftFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF7DB6DAE1AE588E585B409 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDEB8A201FE0EC0E0066C807 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEB8A281FE0EC0E0066C807 /* AppDelegate.swift in Sources */,
+				BDEB8A581FE115100066C807 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,11 +408,12 @@
 		};
 		BDEB8A371FE0EC0E0066C807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A99V6896N;
-				INFOPLIST_FILE = ZMWSwiftFramework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZMWSwiftFramework/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZMWSwiftFramework;
@@ -265,11 +425,12 @@
 		};
 		BDEB8A381FE0EC0E0066C807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACA409FBF66D15A70686231 /* Pods-ZMWSwiftFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A99V6896N;
-				INFOPLIST_FILE = ZMWSwiftFramework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZMWSwiftFramework/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZMWSwiftFramework;
