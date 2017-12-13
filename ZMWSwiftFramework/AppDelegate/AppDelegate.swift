@@ -13,9 +13,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    /// - iOS11列表、页面偏移的适配
+    func setAllScrollView() {
+        // AppDelegate 进行全局设置
+        if #available(iOS 11.0, *) {
+            UIScrollView.appearance().contentInsetAdjustmentBehavior = .never
+        }
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        
+        
+        // - iOS11列表、页面偏移的适配
+        self.setAllScrollView()
+        
         return true
     }
 
