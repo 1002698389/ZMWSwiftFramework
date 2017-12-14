@@ -35,6 +35,7 @@
 		BDEB8A851FE122EB0066C807 /* BaseRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A841FE122EB0066C807 /* BaseRequestManager.swift */; };
 		BDEB8A871FE123610066C807 /* TestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A861FE123610066C807 /* TestRequest.swift */; };
 		BDEB8A8B1FE125FD0066C807 /* UITableView+IOSUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A8A1FE125FD0066C807 /* UITableView+IOSUtil.swift */; };
+		BDEB8A951FE244AE0066C807 /* XHTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A941FE244AE0066C807 /* XHTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		BDEB8A841FE122EB0066C807 /* BaseRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequestManager.swift; sourceTree = "<group>"; };
 		BDEB8A861FE123610066C807 /* TestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequest.swift; sourceTree = "<group>"; };
 		BDEB8A8A1FE125FD0066C807 /* UITableView+IOSUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+IOSUtil.swift"; sourceTree = "<group>"; };
+		BDEB8A941FE244AE0066C807 /* XHTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHTabBar.swift; sourceTree = "<group>"; };
 		D5A25FA529FBD5BFF8F1A116 /* Pods_ZMWSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMWSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMWSwiftFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 		BDEB8A4B1FE115100066C807 /* SwiftModule */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB8A931FE244950066C807 /* XHTabbar */,
 			);
 			path = SwiftModule;
 			sourceTree = "<group>";
@@ -230,6 +233,14 @@
 				BDEB8A781FE11E750066C807 /* Data+JCData.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		BDEB8A931FE244950066C807 /* XHTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB8A941FE244AE0066C807 /* XHTabBar.swift */,
+			);
+			path = XHTabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +361,8 @@
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/KDInteractiveNavigationController/KDInteractiveNavigationController.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -359,6 +372,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDInteractiveNavigationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +414,7 @@
 				BDEB8A701FE11CA00066C807 /* UIView+JCView.swift in Sources */,
 				BDEB8A5C1FE1195E0066C807 /* SizeMacro.swift in Sources */,
 				BDEB8A811FE121200066C807 /* UIImageView+IOSUtil.swift in Sources */,
+				BDEB8A951FE244AE0066C807 /* XHTabBar.swift in Sources */,
 				BDEB8A851FE122EB0066C807 /* BaseRequestManager.swift in Sources */,
 				BDEB8A581FE115100066C807 /* AppDelegate.swift in Sources */,
 				BDEB8A5E1FE119930066C807 /* UtilMacro.swift in Sources */,

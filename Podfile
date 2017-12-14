@@ -11,8 +11,10 @@ target 'ZMWSwiftFramework' do
     pod 'HandyJSON', '~> 4.0.0-beta.1'          # json转model和model转json都非常方便，可以自定义属性名称暂时用这种。（支持嵌套）
  # UIKit相关
     pod 'lottie-ios'                            # airbnb动画
+    pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'                # 基本动画的封装 github: 1万多个star
     pod 'ImageViewer', '~> 5.0.0'               # 类似Twitter流量多张图片的效果
     pod 'Cartography', '~> 1.1.0'               # 自动布局
     pod 'IQKeyboardManagerSwift', '~> 5.0.4'    # 键盘相关
+    pod 'KDInteractiveNavigationController', '~> 0.4'                           # 导航栏 120个star
 
 end
