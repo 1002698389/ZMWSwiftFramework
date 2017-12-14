@@ -20,5 +20,13 @@ class BaseViewController: UIViewController {
         // 设置统一的背景颜色
         self.view.backgroundColor = UIColor.getBackgroundColor()
     }
+    
+    
+    /// 统一添加标题的方法
+    ///
+    /// - Parameter titleStr: 标题文字
+    func addTitle(titleStr: String?) {
+        self.navigationItem.title = titleStr
+    }
 
 }
