@@ -23,8 +23,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+        // 初始化跟视图
+        window = UIWindow(frame:UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        // 控制器名字数组
+        let  controllerArray = ["HomeVC","SecondVC","ThridVC","MoreVC"]
+        // 标题数组
+        let  titleArray = ["首页","第二","第三","更多"]
+        // icon 未选中的数组
+        let  imageArray = ["account_normal","home_normal","message_normal","mycity_normal"]
+        // icon 选中的数组
+        let  selImageArray = ["account_highlight","home_highlight","message_highlight","mycity_highlight"]
+        // tabbar高度最小值49.0, 传nil或<49.0均按49.0处理
+        let height = CGFloat(TABBAR_HEIGHT)
+        // tabBarController
+        let tabBarController = XHTabBar(controllerArray:controllerArray,titleArray: titleArray,imageArray: imageArray,selImageArray: selImageArray,height:height)
         
+        window?.rootViewController = tabBarController
+        // 设置数字角标(可选)
+        // tabBarController.showBadgeMark(badge: 100, index: 1)
+        // 设置小红点(可选)
+        // tabBarController.showPointMarkIndex(index: 2)
+        // 不显示小红点/数字角标(可选)
+        //tabBarController.hideMarkIndex(3)
+        // 手动切换tabBarController 显示到指定控制器(可选)
+        //tabBarController.showControllerIndex(3)
         
+        window?.makeKeyAndVisible()
         // - iOS11列表、页面偏移的适配
         self.setAllScrollView()
         

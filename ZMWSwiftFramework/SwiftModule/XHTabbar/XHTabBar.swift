@@ -51,9 +51,9 @@ private let ColorTabBar = UIColor.white
 private let ColorTitle = UIColor.gray
 
 /**
- *  title选中颜色
+ *  title选中颜色 -- 可以随便改
  */
-private let ColorTitleSel = ColorRGB(r: 41,g: 167,b: 245)
+private let ColorTitleSel = ColorRGB(r: 141,g: 167,b: 25)
 
 /**
  *  title字体大小
