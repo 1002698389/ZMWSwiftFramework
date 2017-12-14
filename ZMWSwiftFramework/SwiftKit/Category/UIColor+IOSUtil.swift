@@ -63,9 +63,9 @@ extension UIColor {
 
 // MARK: - 色系
 extension UIColor {
-    /// 统一页面背景色 - 白色
+    /// 统一页面背景色 - 浅白色
     class func getBackgroundColor() -> UIColor {
-        return UIColor.colorRGB16(value: 0xFFFFFF);
+        return UIColor.colorRGB16(value: 0xfafafa);
     }
     /// 导航栏颜色 - 白色
     class func getNavigationBarColor() -> UIColor {
@@ -75,5 +75,36 @@ extension UIColor {
     class func getSeparatorColor() -> UIColor {
         return UIColor.colorRGB16(value: 0xcccaca);
     }
+    
+    /// 获取红色的颜色 FF5906
+    class func getRedColorSwift() -> UIColor {
+        return UIColor.colorRGB16(value: 0xFF5906);
+    }
+    
+    /// 获取次级内容的字体颜色 aaaaaa - 最浅的黑  ----- 也可以作为按钮不可点击的颜色
+    class func getContentSecondColorSwift() -> UIColor {
+        return UIColor.colorRGB16(value: 0xaaaaaa);
+    }
+    
+    /// 获取内容的字体颜色 6b6b6b - 二级黑
+    class func getContentColorSwift() -> UIColor {
+        return UIColor.colorRGB16(value: 0x6b6b6b);
+    }
+    
+    /// 获取标题的字体颜色 333333 - 黑
+    class func getTitleColorSwift() -> UIColor {
+        return UIColor.colorRGB16(value: 0x333333);
+    }
+    
+    /// 获取主题色 23aefe - 蓝色
+    class func getMainColorSwift() -> UIColor {
+        return UIColor.colorRGB16(value: 0x23aefe);
+    }
+    
+    /// 获取表格分割线的颜色 ececec - 淡淡的黑
+    class func getSeparatorColorSwift() -> UIColor {
+        return UIColor.colorRGB16(value: 0xececec);
+    }
+
 }
 

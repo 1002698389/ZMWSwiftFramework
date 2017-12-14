@@ -9,21 +9,16 @@
 import Foundation
 import UIKit
 
-extension UIFont {
-    
-    /**
-     返回自定义的字体 -- 默认都用这个方法获取字体，除非粗体
-     
-     - parameter size: 需要的字体大小
-     
-     - returns: 返回自定义的字体
-     */
-    class func fontWithSize(size: CGFloat) -> UIFont {
-        if let font = UIFont.init(name: "BigYoungMediumGB2.0", size: size) {
-            return font
-        }
-        return UIFont.systemFont(ofSize: size)
+/// 统一获取字体的方法
+public func FONT_PingFang(fontSize: CGFloat) -> UIFont {
+    var font = UIFont.init(name: "PingFangSC-Regular", size: fontSize)
+    if !IS_IOS9 {
+        font = UIFont.init(name: "Helvetica", size: fontSize)
     }
+    return font!
+}
+
+extension UIFont {
     
     /// systemFontOfSize:
     private class func scaleFont(ofSize: CGFloat) -> UIFont {

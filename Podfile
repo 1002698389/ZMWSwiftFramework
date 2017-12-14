@@ -16,5 +16,12 @@ target 'ZMWSwiftFramework' do
     pod 'Cartography', '~> 1.1.0'               # 自动布局
     pod 'IQKeyboardManagerSwift', '~> 5.0.4'    # 键盘相关
     pod 'KDInteractiveNavigationController', '~> 0.4'                           # 导航栏 120个star
+    pod 'RxSwift', '~> 4.0.0'   # 替代RAC5.0
+    pod 'RxCocoa', '~> 4.0.0'   # 替代RAC5.0
 
+    pod 'SwiftDate', '~> 4.5.1'
+
+ # YYKit系列
+    pod 'YYKit', '~> 1.0.9'
+    
 end

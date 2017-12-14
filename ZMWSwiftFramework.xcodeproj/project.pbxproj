@@ -40,6 +40,8 @@
 		BDEB8A9D1FE249900066C807 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A9C1FE249900066C807 /* SecondVC.swift */; };
 		BDEB8A9F1FE2499E0066C807 /* ThridVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8A9E1FE2499E0066C807 /* ThridVC.swift */; };
 		BDEB8AA11FE249AA0066C807 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8AA01FE249AA0066C807 /* MoreVC.swift */; };
+		BDEB8AA51FE257650066C807 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8AA31FE257650066C807 /* UIView+Utils.m */; };
+		BDEB8AA71FE258560066C807 /* String+JCString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB8AA61FE258560066C807 /* String+JCString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,10 @@
 		BDEB8A9C1FE249900066C807 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		BDEB8A9E1FE2499E0066C807 /* ThridVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridVC.swift; sourceTree = "<group>"; };
 		BDEB8AA01FE249AA0066C807 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		BDEB8AA21FE257640066C807 /* ZMWSwiftFramework-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMWSwiftFramework-Bridging-Header.h"; sourceTree = "<group>"; };
+		BDEB8AA31FE257650066C807 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		BDEB8AA41FE257650066C807 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		BDEB8AA61FE258560066C807 /* String+JCString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+JCString.swift"; sourceTree = "<group>"; };
 		D5A25FA529FBD5BFF8F1A116 /* Pods_ZMWSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMWSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMWSwiftFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMWSwiftFramework/Pods-ZMWSwiftFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +137,7 @@
 		BDEB8A261FE0EC0E0066C807 /* ZMWSwiftFramework */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB8AA21FE257640066C807 /* ZMWSwiftFramework-Bridging-Header.h */,
 				BDEB8A501FE115100066C807 /* AppDelegate */,
 				BDEB8A4B1FE115100066C807 /* SwiftModule */,
 				BDEB8A4C1FE115100066C807 /* SwiftBase */,
@@ -230,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				BDEB8A761FE11CAE0066C807 /* UIColor+IOSUtil.swift */,
+				BDEB8AA61FE258560066C807 /* String+JCString.swift */,
 				BDEB8A7C1FE120FE0066C807 /* UIButton+IOSUtil.swift */,
 				BDEB8A7E1FE1210F0066C807 /* UILabel+IOSUtil.swift */,
 				BDEB8A8A1FE125FD0066C807 /* UITableView+IOSUtil.swift */,
@@ -240,6 +248,8 @@
 				BDEB8A6E1FE11CA00066C807 /* UITextField+JCTextField.swift */,
 				BDEB8A6D1FE11C9F0066C807 /* UITextView+JCTextView.swift */,
 				BDEB8A691FE11C9F0066C807 /* UIView+JCView.swift */,
+				BDEB8AA41FE257650066C807 /* UIView+Utils.h */,
+				BDEB8AA31FE257650066C807 /* UIView+Utils.m */,
 				BDEB8A6A1FE11C9F0066C807 /* UIWebView+JCWebView.swift */,
 				BDEB8A661FE11B290066C807 /* UIScreen+JCScale.swift */,
 				BDEB8A781FE11E750066C807 /* Data+JCData.swift */,
@@ -323,6 +333,7 @@
 				TargetAttributes = {
 					BDEB8A231FE0EC0E0066C807 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -406,7 +417,11 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
 				"${BUILT_PRODUCTS_DIR}/KDInteractiveNavigationController/KDInteractiveNavigationController.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -417,7 +432,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDInteractiveNavigationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,12 +482,14 @@
 				BDEB8A951FE244AE0066C807 /* XHTabBar.swift in Sources */,
 				BDEB8A9D1FE249900066C807 /* SecondVC.swift in Sources */,
 				BDEB8A851FE122EB0066C807 /* BaseRequestManager.swift in Sources */,
+				BDEB8AA71FE258560066C807 /* String+JCString.swift in Sources */,
 				BDEB8A581FE115100066C807 /* AppDelegate.swift in Sources */,
 				BDEB8A5E1FE119930066C807 /* UtilMacro.swift in Sources */,
 				BDEB8A751FE11CA00066C807 /* UITextField+JCTextField.swift in Sources */,
 				BDEB8A5A1FE119120066C807 /* BaseViewController.swift in Sources */,
 				BDEB8A871FE123610066C807 /* TestRequest.swift in Sources */,
 				BDEB8A741FE11CA00066C807 /* UITextView+JCTextView.swift in Sources */,
+				BDEB8AA51FE257650066C807 /* UIView+Utils.m in Sources */,
 				BDEB8A9B1FE249410066C807 /* HomeVC.swift in Sources */,
 				BDEB8A651FE11AC60066C807 /* UIFont+IOSUtil.swift in Sources */,
 				BDEB8A671FE11B290066C807 /* UIScreen+JCScale.swift in Sources */,
@@ -591,6 +612,7 @@
 			baseConfigurationReference = F828874C68A5CAC779D21ACD /* Pods-ZMWSwiftFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A99V6896N;
 				INFOPLIST_FILE = "$(SRCROOT)/ZMWSwiftFramework/Supporting Files/Info.plist";
@@ -598,6 +620,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZMWSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZMWSwiftFramework/ZMWSwiftFramework-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -608,6 +632,7 @@
 			baseConfigurationReference = 9ACA409FBF66D15A70686231 /* Pods-ZMWSwiftFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7A99V6896N;
 				INFOPLIST_FILE = "$(SRCROOT)/ZMWSwiftFramework/Supporting Files/Info.plist";
@@ -615,6 +640,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZMWSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZMWSwiftFramework/ZMWSwiftFramework-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
